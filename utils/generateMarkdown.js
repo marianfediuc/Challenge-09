@@ -36,13 +36,29 @@ function renderLicenseSection(license) {
 
 //inputs users answer from index.js questions array to dispaly in GENERATED-README file
 function generateMarkdown(data) {
-  return `
-  # ${data.title}
+  return `# ${data.title}
+  
   ${renderLicenseBadge(data.license)}
  
   ## Description
   ${data.description}
-  
+
+  ## Installation
+  ${data.installation}
+
+  ## License
+  ${data.license}
+    
+  ## Contributing to the web site
+  ${data.contributing}
+
+  ## Tests
+  ${data.test}
+
+  ## Questions
+  github.com/${data.GitHub}
+  ${data.Email}
+
   ## Table of Contents
   -[ Title](#title)
   -[ Description](#description)
@@ -52,25 +68,10 @@ function generateMarkdown(data) {
   -[ Contributing](#contributing)
   -[ Tests](#tests)
   -[ Questions](#questions)
-  ## Installation
-  ${data.installation}
-  ## Usage
-  * Do not forget to add a screenshot of your final app. 
-  * First, create an assets/images folder in your repository and upload your screenshot to it. 
-  * Then, using the relative filepath, add it to your README using the following syntax:
-  * !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
-  ## License
-  ${data.license}
   
-  ## Contributing
-  ${data.contributing}
-  ## Tests
-  ${data.test}
-  ## Questions
-  github.com/${data.GitHub}
-  ${data.Email}
   
-`;
+  
+`
 }
 
 module.exports = generateMarkdown;

@@ -18,39 +18,32 @@ const questions = [{
     {
         type: 'input',
         message: 'Enter the Installation Instruction',
-        name: 'instructions',
+        name: 'installation',
       },
-      {
-        type: 'input',
-        message: 'Usage Information',
-        name: 'description',
-      },
+   
       {
         type: 'input',
         message: 'Contribution Guidlines',
-        name: 'description',
+        name: 'contributing',
       },
       {
         type: 'input',
         message: 'Test Instructions',
-        name: 'description',
+        name: 'test',
       },
       {
         type: 'list',
         choices: ["MIT", "Apache 2.0", "IBM-IPL 1.0", "None"],
         message: 'Choice License ',
-        name: 'description',
+        name: 'license',
       },
       {
         type: 'input',
         message: 'Github Username',
-        name: 'description',
+        name: 'GitHub',
       },
-      {
-        type: 'input',
-        message: 'email',
-        name: 'description',
-      }];
+      
+    ];
 //     {
 //       type: 'password',
 //       message: 'Re-enter password to confirm:',

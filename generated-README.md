@@ -1,10 +1,27 @@
-
-  # ttt
-  undefined
+# Readme Generator
+  
+  ## Licence
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
  
   ## Description
-  aaa@fff.com
-  
+  to provide a automatic tool to generate proffessional Readme file
+
+  ## Installation
+  Comand line on the terminal
+
+  ## License
+  Apache 2.0
+    
+  ## Contributing to the web site
+  n/a
+
+  ## Tests
+  n/a
+
+  ## Questions
+  github.com/marianfediuc
+  undefined
+
   ## Table of Contents
   -[ Title](#title)
   -[ Description](#description)
@@ -14,21 +31,6 @@
   -[ Contributing](#contributing)
   -[ Tests](#tests)
   -[ Questions](#questions)
-  ## Installation
-  undefined
-  ## Usage
-  * Do not forget to add a screenshot of your final app. 
-  * First, create an assets/images folder in your repository and upload your screenshot to it. 
-  * Then, using the relative filepath, add it to your README using the following syntax:
-  * !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
-  ## License
-  undefined
   
-  ## Contributing
-  undefined
-  ## Tests
-  undefined
-  ## Questions
-  github.com/undefined
-  undefined
+  
   
